@@ -20,6 +20,6 @@ simplified moving arm with three degrees of freedom
 
 
 ## tasks
-[ ] ui desigen for contorling
-[ ] motor controling
-[ ] esp controling server
+- [ ] ui desigen for contorling
+- [ ] motor controling
+- [ ] esp controling server
