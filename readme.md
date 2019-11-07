@@ -19,6 +19,8 @@ simplified moving arm with three degrees of freedom
 - these values send to atmega 
 - atmega control the servos 
 
+sample gui
+![img](https://microbotlabs.com/images/servo-sim-1.gif?crc=534604721)
 
 ## tasks
 - [ ] ui desigen for contorling
