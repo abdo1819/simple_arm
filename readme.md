@@ -4,6 +4,7 @@ simplified moving arm with three degrees of freedom
 - rotation around x
 - y-axis
 - arm close/open
+
 ![img](https://microbotlabs.com/images/armuno-blackyellow-1-x440.jpg?crc=3780506381)
 
 ## mechanical desigen 
