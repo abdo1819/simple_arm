@@ -19,8 +19,22 @@
     
     <label style="font-size: 20px;">angle</label>
     
-    <input name=angle type="range" min="0" max="180" class="slider">
+   <input name=angle_slider type="range" min="0" max="180" class="slider"><br/>  
+
+    <h2>pre-defined angles</h2>
+    <input type="radio" name="angle_predef" value="0" checked="true">0
+    <input type="radio" name="angle_predef" value="45">45
+    <input type="radio" name="angle_predef" value="90">90
+    <input type="radio" name="angle_predef" value="135">135
+    <input type="radio" name="angle_predef" value="180">180
+    <br/>
+    <h2>Source:</h2>
+    <input type="radio" name="source" value="angle_predef" checked="true">pre-defined value
+    <input type="radio" name="source" value="angle_slider">slider
+    <br/>
+    <br/>
     <button type="submit" style="font-size: 20px;">update</button>
+  
 
   </form>
 
