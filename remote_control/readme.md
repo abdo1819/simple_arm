@@ -1,9 +1,10 @@
 # road map for project
 
 # v.1:
+- [ ] post a vlue from multible buttons `{0 90 180}` 
 - [x] posting a value from slider by button __no javascript__ page will relod
 - [x] handle post request of updating value from end-user
-- [ ] send value via post request to control server 
+- [x] send value via post request to control server 
 
 # v1.2:
 - [ ] posting a value from slider by button keeping last posted
