@@ -31,4 +31,6 @@
 
 -[ ] get feedback about current value
 
-##control-server
+## control-server
+-[ ] handle get request from serve
+-[ ] open web socket with middle server
