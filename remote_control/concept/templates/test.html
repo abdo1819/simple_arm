@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>arm_control</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+  <header>
+    <h2>Robot arm</h2>
+  </header>
+
+
+  <form class="container" method="post">
+    <h1>insert rotating angle</h1>
+    <br />
+    
+    <label style="font-size: 20px;">angle</label>
+    <input type=text name=angle placeholder="0-180" style="font-size: 20px;">
+
+    <button type="submit" style="font-size: 20px;">update</button>
+
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+/* Style the header */
+header {
+  background-color: rgb(64, 109, 160);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+
