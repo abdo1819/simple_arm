@@ -1,4 +1,7 @@
-import requests,json
+''' help functions for middle server '''
+import json
+import requests
+
 
 def send_to_esp(angles):
     '''
@@ -14,7 +17,7 @@ def send_to_esp(angles):
     '''
 
     if not isinstance(angles, list):
-    #   assert error
+        # assert error
         angles = [angles]
 
     motors_dic = list_to_dic(angles)
@@ -24,16 +27,20 @@ def send_to_esp(angles):
     res = requests.post(url, json=motors_dic)
     print(res, motors_dic)
 
+
 def list_to_dic(angles):
+    ''' convert list of angles to meaningfull usable json dict'''
     motors_vals = {}
-    for i,angle in enumerate(angles):
+    for i, angle in enumerate(angles):
         motors_vals['motor'+str(i)] = angle
-    motors_dic = {'motors':motors_vals}
+    motors_dic = {'motors': motors_vals}
 
     return motors_dic
 
 
 def connection_proper():
-    with open('connection.json','r') as json_file:
+    '''convert json file to python dictionary
+        containing properties for running app'''
+    with open('connection.json', 'r') as json_file:
         connection = json.load(json_file)
     return connection
