@@ -1,6 +1,5 @@
 '''middle server'''
 from flask import Flask, render_template, request
-from werkzeug.exceptions import BadRequestKeyError
 from utils import send_to_esp
 APP = Flask(__name__)
 
