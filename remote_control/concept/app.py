@@ -7,7 +7,7 @@ APP = Flask(__name__)
 def box_value():
     ''' read vaule from user and send it to control-server'''
     if request.method == "POST":
-        angle = request.form['angle']
+        angle = request.form[request.form["source"]]
         send_to_esp(angle)
 
     return render_template('test.html')

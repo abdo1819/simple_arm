@@ -2,7 +2,6 @@
 import json
 import requests
 
-
 def send_to_esp(angles):
     '''
     send to esp the angles
