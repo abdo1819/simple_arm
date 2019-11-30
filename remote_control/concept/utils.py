@@ -1,8 +1,6 @@
 ''' help functions for middle server '''
 import json
 import requests
-from sys import platform 
-import subprocess
 
 def send_to_esp(angles):
     '''
