@@ -3,7 +3,7 @@
 ## current working
 
 
-## v1.7 __alpha__
+## v1.7
 ### client server
 - [ ] control multible motors _client server
 ### middle /control
@@ -12,7 +12,7 @@
 
 
 ## upcomming
-## v2
+## v2  __alpha__
 ### client server
 - [ ] update a animation represent the state of servo
 - [ ] update the value by interactive andimation
