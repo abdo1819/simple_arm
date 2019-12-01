@@ -8,18 +8,28 @@
 - [x] ~~send value via post request to control server~~
 
 # v1.2:
-- [ ] posting a value from slider by button keeping last posted
+- [x] ~~posting a value from slider by button keeping last posted~~
 
 # v1.5:
-- [ ] open web socket with end client monitoring the value
+- [x] ~~open web socket with end client monitoring the value~~
+> implemented using react framwork
 - [ ] open wepsocket controler and middle server send value
 
-## end user
-- [ ] post a vlue from multible buttons `{0 90 180}` 
+# v1.7
+### client server
+- [ ] control multible motors _client server
+### middle /control
+- [ ] use multiple values for many motors _control,middle
+- [x] send value via post request to control untested
 
-- [x] posting a value from slider by button __no javascript__ page will relod
-- [ ] posting a value from slider by button keeping last posted
-- [ ] post the value whenever slider is updated
+
+
+## end user
+- [x] ~~post a vlue from multible buttons `{0 90 180}` 
+
+- [x] ~~posting a value from slider by button __no javascript__ page will relod
+- [x] ~~posting a value from slider by button keeping last posted
+- [x] ~~post the value whenever slider is updated
 
 - [ ] control multible motors
 
@@ -30,21 +40,21 @@
 
 ## middle-serve
 ### with end-user
-- [x] handle post request of updating value
-- [ ] open web socket with end client monitoring the value
+- [x] ~~handle post request of updating value
+- [x] ~~open web socket with end client monitoring the value
 - [ ] use multiple values for many motors
 
 - [ ] send feed back about current value
 
 ### with control-server
-- [ ] send value via post request 
+- [x] ~~send value via post request 
 - [ ] open wepsocket send value with it
 - [ ] send multiple values
 
 - [ ] get feedback about current value
 
 ## control-server
-- [ ] handle get request from serve
+- [X] handle get request from serve _untested
 - [ ] open web socket with middle server
 
 
