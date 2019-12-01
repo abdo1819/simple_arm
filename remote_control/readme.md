@@ -1,10 +1,11 @@
 # road map for project
 
+
 # v.1:
-~~- [x] post a vlue from multible buttons `{0 45 90 135 180}` ~~
-~~- [x] posting a value from slider by button __no javascript__ page will relod ~~
-~~- [x] handle post request of updating value from end-user~~
-~~- [x] send value via post request to control server ~~
+- [x] ~~post a vlue from multible buttons `{0 45 90 135 180}`~~
+- [x] ~~posting a value from slider by button __no javascript__ page will relod~~
+- [x] ~~handle post request of updating value from end-user~~
+- [x] ~~send value via post request to control server~~
 
 # v1.2:
 - [ ] posting a value from slider by button keeping last posted
@@ -12,7 +13,6 @@
 # v1.5:
 - [ ] open web socket with end client monitoring the value
 - [ ] open wepsocket controler and middle server send value
-
 
 ## end user
 - [ ] post a vlue from multible buttons `{0 90 180}` 
@@ -46,3 +46,7 @@
 ## control-server
 - [ ] handle get request from serve
 - [ ] open web socket with middle server
+
+
+## helpful links
+[asp tutorial](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html)
