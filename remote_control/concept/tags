@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+.slider	static/style.css	/^.slider {$/;"	c
+APP	app.py	/^APP = Flask(__name__)$/;"	v
+APP	control_sever_test.py	/^APP = Flask(__name__)$/;"	v
+FAQ	readme.md	/^## FAQ$/;"	s
+PORT	control_sever_test.py	/^    PORT = connection_proper()['control-port']$/;"	v
+Robot arm	templates/test.html	/^    <h2>Robot arm<\/h2>$/;"	i
+Source:	templates/test.html	/^    <h2>Source:<\/h2>$/;"	i
+box_value	app.py	/^def box_value():$/;"	f
+connection_proper	utils.py	/^def connection_proper():$/;"	f
+control-port	connection.json	/^    "control-port":"4050"$/;"	s
+header	static/style.css	/^header {$/;"	s
+input[type="range"] ::-moz-range-progress	static/style.css	/^input[type="range"]::-moz-range-progress {$/;"	s
+input[type="range"] ::-moz-range-track	static/style.css	/^input[type="range"]::-moz-range-track {  $/;"	s
+insert rotating angle	templates/test.html	/^    <h1>insert rotating angle<\/h1>$/;"	h
+list_to_dic	utils.py	/^def list_to_dic(angles):$/;"	f
+middle server implemetation	readme.md	/^# middle server implemetation$/;"	c
+pre-defined angles	templates/test.html	/^    <h2>pre-defined angles<\/h2>$/;"	i
+run server	readme.md	/^# run server$/;"	c
+send_to_esp	utils.py	/^def send_to_esp(angles):$/;"	f
+update_motor	control_sever_test.py	/^def update_motor():$/;"	f
+url	connection.json	/^    "url":"http:\/\/localhost:4050\/",$/;"	s
