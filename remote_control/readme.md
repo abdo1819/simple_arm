@@ -1,27 +1,41 @@
 # road map for project
 
+## current working
 
-# v.1:
-- [x] ~~post a vlue from multible buttons `{0 45 90 135 180}`~~
-- [x] ~~posting a value from slider by button __no javascript__ page will relod~~
-- [x] ~~handle post request of updating value from end-user~~
-- [x] ~~send value via post request to control server~~
 
-# v1.2:
-- [x] ~~posting a value from slider by button keeping last posted~~
-
-# v1.5:
-- [x] ~~open web socket with end client monitoring the value~~
-> implemented using react framwork
-- [ ] open wepsocket controler and middle server send value
-
-# v1.7
+## v1.7 __alpha__
 ### client server
 - [ ] control multible motors _client server
 ### middle /control
 - [ ] use multiple values for many motors _control,middle
 - [x] send value via post request to control untested
 
+
+## upcomming
+## v2
+### client server
+- [ ] update a animation represent the state of servo
+- [ ] update the value by interactive andimation
+
+### middle /control
+- [ ] open web socket with middle server
+
+
+## older
+# v1.5:
+- [x] ~~open web socket with end client monitoring the value~~
+> implemented using react framwork
+- [ ] open wepsocket controler and middle server send value
+
+# v1.2:
+- [x] ~~posting a value from slider by button keeping last posted~~
+
+
+# v.1:
+- [x] ~~post a vlue from multible buttons `{0 45 90 135 180}`~~
+- [x] ~~posting a value from slider by button __no javascript__ page will relod~~
+- [x] ~~handle post request of updating value from end-user~~
+- [x] ~~send value via post request to control server~~
 
 
 ## end user
