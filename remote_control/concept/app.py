@@ -8,7 +8,6 @@ def box_value():
     if request.method == "POST":
         angle = request.form[request.form["source"]]
         send_to_esp(angle)
-        
     return render_template('test.html')
 
 if __name__ == "__main__":
